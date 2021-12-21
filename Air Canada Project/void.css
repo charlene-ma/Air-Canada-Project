@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/17/96/ef/1796ef0033df2a1bb61b02d731541119.gif");
+} 
+.home-btn {
+    color: white;
+    background-color: transparent;
+    border-style: none;
+    opacity: 75%;
+    font-size: 170%;
+}
+.home-btn:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+.void-message {
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+}
+.void-questionaire {
+    background-color: rgb(213, 219, 242);
+    display: grid;
+    margin-top: 15vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 10vh;
+    border-style: solid;
+    border-color: rgb(55, 72, 140);
+    border-width: 5vh;
+}
+.void-question {
+    text-align: center;
+    font-size: 3.2vh;
+}
+.question-option {
+    font-size: 2.2vh;
+}
+.question-option:hover {
+    cursor: pointer;
+}
+.destination-container p {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    text-align: center;
+    font-size: 4vh;
+}

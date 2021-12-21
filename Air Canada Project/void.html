@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiR cANaDa: ThE vOiD</title>
+    <!-- css + fonts -->
+    <link href="void.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- leads to home page -->
+    <button class="home-btn" onclick="window.location.href='index.html'" title="Go home"><i class="fas fa-home"></i></button>
+    <div class="destination-container">
+        <h1 class="void-message">You are now entering the void: choose your answers carefully...</h1>
+        <!-- will hold text once the user reaches their final destination -->
+        <p class="description"></p>
+        <p class="subtext"></p>
+    </div>
+    <!-- questions for quiz -->
+    <div class="void-questionaire">
+        <p class="void-question">Do you prefer staying at home or going out with friends during your free time?</p>
+        <button class="question-option" id="option-1">Staying at home</button>
+        <button class="question-option" id="option-2">Going out</button>
+    </div>
+    <!-- script -->
+    <script src="void.js"></script>
+</body>
+</html>
